@@ -22,7 +22,7 @@ class AnalyticsEvent < ActiveRecord::Base
 
   YAMLIZED_ATTRIBUTES.each do |attr|
     define_method(attr) do
-      value = super(attr)
+      value = super()
 
       # The value may be holding nil in YAML format; if so, return nil.
       (value == nil.to_yaml) ? nil : value

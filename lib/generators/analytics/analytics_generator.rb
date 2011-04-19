@@ -4,5 +4,6 @@ class AnalyticsGenerator < Rails::Generators::Base
   def build
     copy_file 'analytics_event.rb', 'app/models/analytics_event.rb'
     copy_file 'analytics_event_type.rb', 'app/models/analytics_event_type.rb'
+    copy_file 'init.rb', 'lib/initializers/analytics.rb'
   end
 end
