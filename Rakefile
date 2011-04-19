@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('analytics-logger', '0.2.0') do |p|
+Echoe.new('analytics-logger', '0.3.1') do |p|
   p.description               = "Monitors, logs and tracks events"
   p.url                       = "https://github.com/FutureAdvisor/analytics-logger"
   p.author                    = "Jared McFarland of FutureAdvisor"
