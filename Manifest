@@ -13,3 +13,7 @@ lib/analytics_logger/analytics/formatters.rb
 lib/analytics_logger/analytics/loggers.rb
 lib/analytics_logger/analytics/maintenance.rb
 lib/analytics_logger/analytics/selectors.rb
+lib/generators/analytics/USAGE
+lib/generators/analytics/analytics_generator.rb
+lib/generators/analytics/templates/analytics_event.rb
+lib/generators/analytics/templates/analytics_event_type.rb
