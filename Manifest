@@ -2,6 +2,7 @@ CHANGELOG
 Manifest
 README.rdoc
 Rakefile
+analytics-logger.gemspec
 generators/analytics/USAGE
 generators/analytics/analytics_generator.rb
 generators/analytics/templates/analytics_event.rb
