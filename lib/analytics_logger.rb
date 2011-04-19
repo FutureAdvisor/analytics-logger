@@ -1,6 +1,8 @@
 require 'active_record'
 
 begin
+  require Rails.root + "app/models/analytics_event"
+  require Rails.root + "app/models/analytics_event_type"
   AnalyticsEvent
   AnalyticsEventType
 rescue
