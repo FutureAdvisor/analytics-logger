@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{analytics-logger}
-  s.version = "0.3.4"
+  s.version = "0.3.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jared McFarland of FutureAdvisor"]
@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.date = %q{2011-04-18}
   s.description = %q{Monitors, logs and tracks events}
   s.email = %q{jared@futureadvisor.com}
-  s.extra_rdoc_files = ["CHANGELOG", "README.rdoc", "lib/analytics_logger.rb", "lib/analytics_logger/analytics.rb", "lib/analytics_logger/analytics/formatters.rb", "lib/analytics_logger/analytics/loggers.rb", "lib/analytics_logger/analytics/maintenance.rb", "lib/analytics_logger/analytics/selectors.rb", "lib/generators/analytics/USAGE", "lib/generators/analytics/analytics_generator.rb", "lib/generators/analytics/templates/analytics_event.rb", "lib/generators/analytics/templates/analytics_event_type.rb"]
-  s.files = ["CHANGELOG", "Manifest", "README.rdoc", "Rakefile", "analytics-logger.gemspec", "generators/analytics/USAGE", "generators/analytics/analytics_generator.rb", "generators/analytics/templates/analytics_event.rb", "generators/analytics/templates/analytics_event_type.rb", "lib/analytics_logger.rb", "lib/analytics_logger/analytics.rb", "lib/analytics_logger/analytics/formatters.rb", "lib/analytics_logger/analytics/loggers.rb", "lib/analytics_logger/analytics/maintenance.rb", "lib/analytics_logger/analytics/selectors.rb", "lib/generators/analytics/USAGE", "lib/generators/analytics/analytics_generator.rb", "lib/generators/analytics/templates/analytics_event.rb", "lib/generators/analytics/templates/analytics_event_type.rb"]
+  s.extra_rdoc_files = ["CHANGELOG", "README.rdoc", "lib/analytics_logger.rb", "lib/analytics_logger/analytics.rb", "lib/analytics_logger/analytics/formatters.rb", "lib/analytics_logger/analytics/loggers.rb", "lib/analytics_logger/analytics/maintenance.rb", "lib/analytics_logger/analytics/selectors.rb", "lib/generators/analytics/USAGE", "lib/generators/analytics/analytics_generator.rb", "lib/generators/analytics/templates/analytics_event.rb", "lib/generators/analytics/templates/analytics_event_type.rb", "lib/generators/analytics/templates/init.rb"]
+  s.files = ["CHANGELOG", "Manifest", "README.rdoc", "Rakefile", "analytics-logger.gemspec", "generators/analytics/USAGE", "generators/analytics/analytics_generator.rb", "generators/analytics/templates/analytics_event.rb", "generators/analytics/templates/analytics_event_type.rb", "generators/analytics/templates/init.rb", "lib/analytics_logger.rb", "lib/analytics_logger/analytics.rb", "lib/analytics_logger/analytics/formatters.rb", "lib/analytics_logger/analytics/loggers.rb", "lib/analytics_logger/analytics/maintenance.rb", "lib/analytics_logger/analytics/selectors.rb", "lib/generators/analytics/USAGE", "lib/generators/analytics/analytics_generator.rb", "lib/generators/analytics/templates/analytics_event.rb", "lib/generators/analytics/templates/analytics_event_type.rb", "lib/generators/analytics/templates/init.rb"]
   s.homepage = %q{https://github.com/FutureAdvisor/analytics-logger}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Analytics-logger", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
